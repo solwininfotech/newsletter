@@ -1,0 +1,22 @@
+{
+    "name": "solwin/newsletter",
+    "description": "Advanced Newsletter Popup extension for Magento 2 allows you to display newsletter popup on your store when customer visit your site.",
+    "type": "magento2-module",
+    "version": "1.1.0",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\Newsletter\\": ""
+        }
+    }
+}
